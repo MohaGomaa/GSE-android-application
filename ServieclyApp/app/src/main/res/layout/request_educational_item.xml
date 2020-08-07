@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loading_shape"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvPhase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Phase"
+            android:textColor="@color/whiteTextColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvChildName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child"
+            android:textColor="@color/whiteTextColor" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RequestType:"
+            android:textColor="@color/whiteTextColor" />
+
+        <TextView
+            android:id="@+id/tvLang"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language:"
+            android:textColor="@color/whiteTextColor" />
+
+        <TextView
+            android:id="@+id/txtDate"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="Date"
+            android:textColor="@color/whiteTextColor"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvId"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request Id:"
+
+                android:textColor="@color/whiteTextColor" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvAddress"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Recive Place:"
+            android:textColor="@color/whiteTextColor" />
+
+        <ImageView
+            android:id="@+id/count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|end"
+            android:layout_marginRight="0dp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

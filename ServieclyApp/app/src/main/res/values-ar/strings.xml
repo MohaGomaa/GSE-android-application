@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GSE</string>
+    <string name="login_email_hint">الرقم القومى</string>
+    <string name="login_password_hint">الكود</string>
+    <string name="register">تسجيل</string>
+    <string name="signup_login_hint">Already have an account Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="pin">الرقم السري</string>
+    <string name="national_id">الرقم القومى</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="reg_no">Reg</string>
+    <string name="or">أو</string>
+    <string name="pinInput">Pin Number </string>
+    <string name="Details">التفاصيل : </string>
+    <string name="ScanQR">فحص الكيوأر</string>
+    <string name="app_slogn">الخدمات العامة في مصر</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="CivilRegistryReservations">حجوزات الهيئات الحكومية</string>
+    <string name="CivilRegistryRequests">طلبات الهيئات الحكومية الخاصة بي</string>
+    <string name="DoctorReservations"> حجوزات الاطباء الخاصة بي</string>
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">اغلاق درج التنقل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="child">الطفل</string>
+    <string name="VaccinationReservations">حجوزات تطعيم اطفالي</string>
+    <string name="doctorApp">حجوزات الاطباء</string>
+    <string name="childApp">حجوزات تطعيم الاطفال</string>
+    <string name="ministries">الوزارات</string>
+    <string name="school_neducation">Serviecly</string>
+    <string name="specialization">التخصص</string>
+    <string name="healthcare">المنشأة الصحية</string>
+    <string name="healthcare_type">نوع المنشأة الصحية</string>
+    <string name="schedual">المواعيد</string>
+    <string name="doctor">الطبيب</string>
+    <string name="VaccinationType">نوع التطعيم</string>
+
+    <string name="civilregistration">السجل المدنى</string>
+    <string name="todo">TODO</string>
+    <string name="loginMsg">Already \nhave an \nAccount</string>
+    <string name="ministry_of_interior">وزارة الدخلية</string>
+    <string name="ministry_of_health">وزارة الصحة</string>
+    <string name="vaccinations">حجز موعد للتطعيم</string>
+    <string name="healthcare_reserve">حجز موعد مع الطبيب</string>
+    <string name="turn_off_flashlight">تشغيل ضوء الفلاش</string>
+    <string name="turn_on_flashlight">اغلاق ضوء الفلاش</string>
+    <string name="title_activity_main">ماسح الباركودوالكيوأر </string>
+    <string name="message">ضع الرمز الشريطي داخل مستطيل عدسة الكاميرا لمسحها ضوئيًا.</string>
+    <string name="sector">القطاع</string>
+
+
+
+
+
+    <string name="Servicee">الخدمة: </string>
+    <string name="Languagee">اللغة: </string>
+    <string name="Addresss">العنوان: </string>
+    <string name="Datee">التاريخ: </string>
+    <string name="RequestType">حالة الطلب: </string>
+    <string name="RequestId">رقم الطلب: </string>
+    <string name="Officee">المكتب : </string>
+    <string name="ReservationId">رقم الطلب :  </string>
+    <string name="Thecomplaint">الشكوى</string>
+
+
+    <string name="specializationss">التخصص : </string>
+    <string name="Doctors">الطبيب : </string>
+    <string name="Healthcares">المنشأة الصحية : </string>
+    <string name="Scheduals">الموعد : </string>
+    <string name="Codes">الكود : </string>
+    <string name="Sendcomplaint">ارسال شكوى</string>
+
+    <string name="Send_Complaint">ارسال شكوي للهيئة الحكومية</string>
+    <string name="Areyouwanttosendthiscomplaint">هل تريد ارسال هذة الشكوى ؟</string>
+    <string name="ChildName">اسم الطفل:</string>
+    <string name="Vaccinated">تم التطعيم : </string>
+    <string name="VaccinationTypee">اسم التطعيم : </string>
+    <string name="Send">ارسال</string>
+    <string name="Waiting">انتظر</string>
+    <string name="EnterCom">ادخل الشكوى</string>
+    <string name="SelectAction">اختر الفعل</string>
+    <string name="Goverr">الهيئة الحكومية: </string>
+    <string name="Sendd">تايخ الارسال: </string>
+    <string name="Replayy">الرد: </string>
+    <string name="ReplayDatee">تاريخ الرد: </string>
+
+    <string name="SelectGove">اختر الهيئة الحكومية</string>
+    <string name="Pleasewaiting">الرجاء الانتظار ...</string>
+    <string name="EnteryourNationalId">من فضلك ادخل الرقم القومي</string>
+    <string name="LogInCancelled">تم اغلاق تسجيل الدخول</string>
+    <string name="SuccessLogIn"> تم تسجيل الدخول بنجاح </string>
+    <string name="InvalidNationalQR">الرقم القومي غير صالح أو الكيو أر</string>
+    <string name="InvalidNationalPin">الرقم القومي غير صالح أو الرقم السري</string>
+    <string name="LoginByPinNumber">تسجيل الدخول بالرقم السري</string>
+    <string name="PleaseEnterPinNumber">الرجاء إدخال الرقم السري</string>
+    <string name="YoumissedPinNumberEmpty">تركت الرقم السري فارغ</string>
+    <string name="Cancel">الغاء</string>
+    <string name="OnemoreStep">خطوة واحدة اخرى</string>
+    <string name="EnteryourPlaceofReceipt">أدخل مكان الإيصال (العنوان): </string>
+    <string name="Yes">نعم</string>
+    <string name="No">لا</string>
+    <string name="EnableGPS">تمكين GPS</string>
+    <string name="CarCode">نوع المخالفة:</string>
+    <string name="TypeViolation">كود السيارة :</string>
+    <string name="price">السعر :</string>
+    <string name="Traffic_violations">المخالفات المرور</string>
+    <string name="IsPaid">هل تم دفعها :</string>
+    <string name="EnterAnyDetails">ادخل تفاصيل الطلب : </string>
+    <string name="EnterDetails">لم تدخل التفاصيل, عاود المحاولة</string>
+    <string name="Requestanambulance"> طلب الاسعاف</string>
+    <string name="CantGetYourLocation">لا يمكن الحصول على موقعك</string>
+    <string name="TrafficViolations">مخالفات مرورية</string>
+    <string name="EnterAddress">ادخل العنوان</string>
+    <string name="pleaseEnteryouraddress">الرجاء إدخال عنوانك</string>
+    <string name="SelectDate">حدد تاريخ</string>
+    <string name="Selectoffice">اختر المكتب</string>
+    <string name="CancelHealthcareAppointment">الغاء حجز المنشأة الصحية</string>
+    <string name="AreyouwanttoDeletethisappointment">هل تريد حذف هذا الموعد؟</string>
+    <string name="Delete">حذف</string>
+    <string name="Selecthealthcare">اختر المنشأة الصحية</string>
+    <string name="SelectDoctor">اختر الطبيب</string>
+    <string name="Selectschedual">اختر الموعد</string>
+    <string name="ReserveHealthcareAppointment">حجز موعد الرعاية الصحية</string>
+    <string name="Areyouwanttoreservethisappointment">هل تريد حجز هذا الموعد؟</string >
+    <string name="Reserve">حجز</string>
+    <string name="NoReservationyet">لا يوجد حجوزات حتي الان</string>
+
+    <string name="CancelVaccinationAppointment">الغاء موعد التطعيم</string>
+    <string name="ReserveVaccinationAppointment">حجز موعد تطعيم</string>
+    <string name="RequestService">طلب خدمة</string>
+    <string name="Language">اللغة</string>
+
+    <string name="Arabic">عربي</string>
+    <string name="English">انجليزي</string>
+    <string name="NumberofCopies">عدد النسخ</string>
+
+    <string name="GovernmentBody">الهيئة الحكومية</string>
+    <string name="Service">الخدمة</string>
+    <string name="State">المحافظة</string>
+    <string name="City">المدينة</string>
+    <string name="Region">المنطقة</string>
+    <string name="District">الحي</string>
+    <string name="Bookanappointment">حجز موعد</string>
+    <string name="Reservation">حجز</string>
+    <string name="Date">التاريخ</string>
+    <string name="Office">المكتب</string>
+    <string name="Services">الخدمات</string>
+    <string name="Bookvaccinationappointment">حجز موعد للتطعيم</string>
+    <string name="CurrentPinNumber">الرقم السري الحالي</string>
+    <string name="NewPinNumber">الرقم السري الجديد</string>
+    <string name="ConfirmPinNumber">تأكيدالرقم السرى</string>
+    <string name="Requests">الطلبات</string>
+    <string name="Reservations">الحجوزات</string>
+    <string name="ListofRequests">قائمة الطلبات</string>
+    <string name="ReservationList">قائمة الحجوزات</string>
+    <string name="Ministry">الوزارة</string>
+    <string name="Account">الحساب</string>
+    <string name="ChangePin">تغير الرقم السرى</string>
+    <string name="User">المستخدم</string>
+    <string name="Search">بحث</string>
+    <string name="GSEoffered">عرض GSE في : </string>
+    <string name="Home">الرئيسية</string>
+    <string name="Menu">القائمة</string>
+    <string name="searchhere">ابحث هنا.....</string>
+    <string name="Arabica">English</string>
+    <string name="StartNow">ابداء الان</string>
+    <string name="CertificationName">اسم الشهادة:</string>
+    <string name="download">تحميل</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="pdf_url">PDF URL</string>
+    <string name="permission_request_message">Storage permission allows us to save pdf.</string>
+    <string name="MyCertifications">شهادات الخاصة بى</string>
+    <string name="ReserveCivilRegistryAppointment">حجز موعد في احدي مكاتب السجل المدني</string>
+    <string name="RequestServiceFromCivilRegistry">طلب خدمة</string>
+    <string name="Areyouwanttosendthisrequest">هل انت متاكد من انك تريد ارسال الطلب ؟</string>
+    <string name="ShowInMap">اظهار المكان</string>
+    <string name="MyRequests">الطلبات الخاصة بي</string>
+    <string name="MarkerinRequestPlace">مكان الذي ارسل منه الطلب</string>
+    <string name="RequestanambulanceList">قائمة الخاصة بطلب الاسعاف</string>
+    <string name="Complaint">الشكوي :</string>
+    <string name="ShowResponse">عرض الرد</string>
+    <string name="ComplaintList">قائمة الشكاوى</string>
+    <string name="NoRespondyet">لا يوجد رد</string>
+    <string name="MyComplaints">الشكاوي الخاصة بي</string>
+
+    <string name="BookRealEstate">حجز موعد في الشهر العقاري</string>
+    <string name="BranchOffice">مكتب فرعي</string>
+    <string name="PleaseSelectService">من فضلك اختر الخدمة</string>
+    <string name="NoInformationYet">لا توجد معلومات متاحة الان</string>
+    <string name="ShowPlacesNearMe">اظهار الامكان القريبة مني</string>
+    <string name="Searche">بحث</string>
+    <string name="Hospitals">المستشفيات</string>
+    <string name="Restaurants">المطاعم</string>
+    <string name="Schools">المدارس</string>
+    <string name="MinistryofJustice"> وزارة العدل </string>
+    <string name="RealEstateMonthAppointmentList">قائمة حجوزات الشهر العقاري</string>
+    <string name="MinistryofEducation">وزارة التعليم</string>
+    <string name="Educational_certificates">شهادات تعليمية</string>
+    <string name="ReserveRealEstateAppointment">حجز موعد في الشهر العقاري</string>
+    <string name="MyAppointmentList">قائمة الحجوزات الخاصة بي</string>
+    <string name="Phase">المرحلة</string>
+    <string name="RequestEducationalService">طلب بيان الدرجات</string>
+    <string name="RequestServiceFromMinistryEducation">طلب خدمة من وزارة التعليم</string>
+    <string name="Phasee">المرحلة :</string>
+
+
+
+    <string name="RequestsList">قائمة الطلبات</string>
+    <string name="title_activity_dashboard_home">الرئيسية</string>
+    <string name="WhatsOnYourMind">في ماذا تفكر؟</string>
+    <string name="AddNewPost">اضف منشور جديد</string>
+    <string name="EmptyText">نص فارغ</string>
+    <string name="Comments">التعليقات:</string>
+    <string name="writeAcomment">اكتب تعليق....</string>
+    <string name="Commentss">التعليقات</string>
+    <string name="back">رجوع</string>
+
+    <string name="ReportType">نوع المحضر :</string>
+    <string name="PoliceDepartment">قسم الشرطة:</string>
+    <string name="ReportNumber">رقم المحضر :</string>
+    <string name="ClassificationName">اسم التصنيف :</string>
+    <string name="PoliceReportList">قائمة المحاضر</string>
+    <string name="CitizenName">اسم المواطن :</string>
+    <string name="NationalId">الرقم القومي :</string>
+    <string name="tryAgainlater">من فضلك غير موقعك وقم بالمحاولة مرة اخري</string>
+    <string name="TRYAgain">حاول مرة اخري بنص واضح</string>
+    <string name="NoRequestsYet">لا يوجد طلبات حاليا</string>
+    <string name="SomthingsWronghappen">حدث خطأ ما ,حاول مرة أخرى لاحقًا</string>
+
+    <string name="changePin">تغير الرقم السري</string>
+    <string name="fillFields">الرجاء ملئ جميع الحقول</string>
+    <string name="Change">تغير</string>
+    <string name="missedCurrent">لم تقم بداخال الرقم السري الحالي</string>
+    <string name="missedNew">لم تقم بداخال الرقم السري الجديد</string>
+    <string name="NewPin">الرقم السري الجديد يجب ان يكون اكبر من 8</string>
+    <string name="missedConfirm">لم تقم بتاكيد الرقم السري الجديد</string>
+    <string name="WorngCurrent">الرقم السري الحالي غير صحيح</string>
+    <string name="NotMatched">الرقم التاكيدي غير صحيح</string>
+    <string name="Logout">تسجيل الخروج</string>
+
+    <string name="SelectChlid">اختر طفلك</string>
+    <string name="SelectVaccination">اختر نوع التطعيم</string>
+
+    <string name="Mess">هل تريد الخروج ام البقاء؟</string>
+    <string name="Price">السعر للنسخة الواحدة:</string>
+    <string name="FinshedRequestAmbulance">انهاء طلب </string>
+    <string name="Areyouwanttofinshedthisrequest">هل تريد انهاء هذا الطلب ؟</string>
+    <string name="Finshed">انهاء</string>
+    <string name="RequestsApproved">الطلبات المنتهية</string>
+    <string name="RequestsRecent">الطلبات الحالية</string>
+    <string name="RequestsTracker">تتبع الطلبات</string>
+    <string name="CertificationGrade">التقدير :</string>
+
+
+</resources>

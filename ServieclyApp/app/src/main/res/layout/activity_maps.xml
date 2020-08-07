@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:id="@+id/btn_send"
+        android:layout_above="@id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:src="@drawable/ic_send_black_24dp"
+        app:backgroundTint="@color/cardColorOrange"
+        app:elevation="6dp"
+        android:onClick="sendRequest"
+        app:layout_anchor="@id/map"
+        app:layout_anchorGravity="right|end|bottom"
+        app:pressedTranslationZ="12dp"
+        app:useCompatPadding="true"
+        />
+
+
+
+</RelativeLayout>

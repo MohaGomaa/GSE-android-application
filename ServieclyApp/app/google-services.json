@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "425357507094",
+    "firebase_url": "https://servieclyapp.firebaseio.com",
+    "project_id": "servieclyapp",
+    "storage_bucket": "servieclyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425357507094:android:decfbef6845f0f5fd49337",
+        "android_client_info": {
+          "package_name": "com.example.mohamedahmedgomaa.servieclyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425357507094-ia1gtp72mb323aepcqdtf1jo02tcio6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohamedahmedgomaa.servieclyapp",
+            "certificate_hash": "7d62913871120e7d2a1f26d6af7c1c2618a178df"
+          }
+        },
+        {
+          "client_id": "425357507094-emct994fgje4fbqb13sr3q5uo2pbafp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ENIBTgNIaC68prenodq6dG0QqhVxeTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425357507094-emct994fgje4fbqb13sr3q5uo2pbafp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

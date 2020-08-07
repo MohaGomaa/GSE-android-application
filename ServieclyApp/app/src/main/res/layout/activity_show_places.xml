@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ebebebeb"
+    android:layout_height="match_parent"
+    tools:context=".ShowPlaces"
+    android:id="@+id/ShowPlaces">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/TF_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+
+            android:shadowColor="@color/black"
+            android:outlineAmbientShadowColor="@color/black"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:id="@+id/B_search"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/TF_location"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/loading_shape"
+            android:onClick="onClick"
+            android:text="@string/Searche"
+            android:textColor="@color/whiteTextColor" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/edittext_background1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/B_hospital"
+            android:layout_width="80dp"
+            android:textSize="12sp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/loading_shape"
+            android:onClick="onClick"
+            android:text="@string/Hospitals"
+            android:textColor="@color/whiteTextColor" />
+
+        <Button
+            android:id="@+id/B_restaurant"
+            android:layout_width="90dp"
+            android:textSize="11sp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/B_hospital"
+            android:background="@drawable/loading_shape"
+            android:onClick="onClick"
+            android:text="@string/Restaurants"
+            android:textColor="@color/whiteTextColor" />
+
+        <Button
+            android:id="@+id/B_school"
+            android:layout_width="80dp"
+            android:textSize="12sp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/B_restaurant"
+            android:background="@drawable/loading_shape"
+            android:onClick="onClick"
+            android:text="@string/Schools"
+            android:textColor="@color/whiteTextColor" />
+    </LinearLayout>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:context="com.example.priyanka.mapsnearbyplaces.MapsActivity"
+        android:layout_below="@+id/B_hospital" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>

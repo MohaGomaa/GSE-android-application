@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardBackgroundColor="#ebebebeb"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_contacts_black_24dp" />
+    <View
+        android:background="@color/zxing_custom_result_view"
+        android:layout_width="1dp"
+        android:layout_height="match_parent">
+
+    </View>
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/cardColorOrange"
+            android:id="@+id/tvContactId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/cardColorOrange"
+            android:textSize="18sp"
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Type" />
+
+        <TextView
+            android:textColor="@color/cardColorOrange"
+            android:textSize="18sp"
+            android:id="@+id/tvContactData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Data" />
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,246 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--designs for login and register-->
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loginParent" parent="parent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/loginBkColor</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="headerText" parent="parent">
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="loginCard" parent="parent"></style>
+
+    <style name="linearParent" parent="parent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="headerTextPrimary" parent="headerText">
+        <item name="android:textColor">@color/contentStatusBar</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/contentStatusBar
+        </item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/login_button_bk</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="titleTextColor">@color/colorPrimaryDark</item>
+        <item name="actionBarItemBackground">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CollapsedAppbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ExpandesAppbar" parent="@android:style/TextAppearance.Material.Title" tools:targetApi="lollipop">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="centreLocatorCardDesign">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.NoMode">
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+    <!--onboarding designs-->
+
+
+    <!--styles for education app-->
+    <style name="viewParent_two">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="parent_two">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="parent_two.contentLayout">
+        <item name="android:background">@color/contentBodyColor</item>
+        <item name="android:padding">@dimen/normalPadding</item>
+    </style>
+
+    <style name="viewParent_two.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent_two.headerText.contentText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/miniTitleColor</item>
+    </style>
+
+    <style name="homeCardImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="viewParent.headerText.homeCardContent" parent="viewParent_two.headerText.contentText">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+    </style>
+
+    <style name="viewParent.headerText.HomeCardTitle">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DarkModeHidden">
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="Recycleview">
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="loginIMG">
+        <item name="android:layout_width">206dp</item>
+        <item name="android:layout_height">168dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+
+    <style name="reservation_item_Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="reservation_item_logo">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">82dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="reservation_item_body">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_width">263dp</item>
+        <item name="android:layout_height">122dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="reservation_item_txtDocument">
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="reservation_item_txtOffice">
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mainhome_card">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mainhome_card_layout">
+        <item name="android:minHeight">95dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="logintitle_card">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+
+    <style name="pin_card">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="logintitle_textview">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

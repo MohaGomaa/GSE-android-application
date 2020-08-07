@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading_shape"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:padding="2dp"
+        app:civ_border_color="@color/whiteTextColor"
+        app:civ_border_width="@dimen/_1sdp"
+        android:layout_weight="1.2"
+        android:src="@drawable/graduation"
+        android:contentDescription="@string/todo" />
+    <LinearLayout
+        android:padding="8dp"
+        android:background="@drawable/loading_shape"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+            android:id="@+id/tvCertificationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CertificationName"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+
+            />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+            android:id="@+id/tvCertificationGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CertificationGrade"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:textColor="@color/whiteTextColor"
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Datee"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

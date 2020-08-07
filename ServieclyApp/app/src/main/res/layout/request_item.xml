@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:background="@drawable/loading_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+            android:id="@+id/tvService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RequestType:" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language:" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="Date"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:textColor="@color/whiteTextColor"
+
+                android:id="@+id/tvId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Request Id:" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Recive Place:" />
+        <ImageView
+            android:layout_marginRight="0dp"
+            android:id="@+id/count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|end"  />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

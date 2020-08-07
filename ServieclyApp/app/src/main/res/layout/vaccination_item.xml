@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading_shape"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:civ_border_color="@color/whiteTextColor"
+        app:civ_border_width="@dimen/_1sdp"
+        android:src="@drawable/vacc" />
+    <LinearLayout
+        android:padding="8dp"
+        android:background="@drawable/loading_shape"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+            android:id="@+id/tvChildName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VaccinationType" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvHealthcare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/healthcare" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvSchedual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="@string/schedual"
+            android:textSize="15sp" />
+
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="Code"
+            android:textSize="15sp" />
+        <TextView
+            android:textColor="@color/whiteTextColor"
+
+            android:id="@+id/tvVacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="Vaccinated"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
